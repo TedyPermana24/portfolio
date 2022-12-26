@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio - Tedy Sukma Permana</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/9c356402e6.js" crossorigin="anonymous"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</head>
+
+<body>
+    <header>
+        <a href="#banner" class="logo"><img src="images/logo.png"></a>
+        <ul id="sidemenu" class="navigation">
+            <li class="nav-subtitle">- PAGES</li>
+            <li><i class="fa-solid fa-house"></i><a href="#banner">HOME</a></li>
+            <li><i class="fa-solid fa-address-card"></i><a href="#about">ABOUT</a></li>
+            <li><i class="fa-solid fa-wand-magic-sparkles"></i><a href="#skills">SKILLS</a></li>
+            <li><i class="fa-solid fa-mug-hot"></i><a href="#portfolio">PORTFOLIO</a></li>
+            <li><i class="fa-solid fa-phone"></i><a href="#contact">CONTACT</a></li>
+        </ul>
+        <ion-icon name="grid-outline" class="menuToggle"></ion-icon>
+    </header>
+
+
+    <div id="banner">
+        <div class="container">
+            <div class="banner-text reveal fade-left-2">
+                <h1>Permana <span>Tedy</span></h1>
+                <p>Unusual Human</p>
+            </div>
+        </div>
+    </div>
+
+    <!--------------------- about ---------------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1 reveal fade-bottom-2">
+                    <img src="images/prince.png" alt="">
+                </div>
+                <div class="about-col-2 reveal fade-bottom">
+                    <h2 class="sub-title">ABOUT ME</h2>
+                    <hr>
+                    <p>Hai Saya Tedy Sukma Permana. Saya merupakan lulusan Rekayasa Perangkat Lunak di salah satu SMK
+                        yang berada di
+                        Bandung. Hingga kini saya memiliki ketertarikan di bidang IT. Saya telah membuat beberapa
+                        website
+                        sederhana seperti Pilkasis, Peduli Diri, Pengelola Keuangan, dll.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="experience">
+                        <nav>
+                            <ul>
+                                <li><span>2021</span><br>Internship at PT BISA AI</li>
+                                <li><span>2021</span><br>Internship at PT Karya Eka Nala</li>
+                                <li><span>2022</span><br>Working as Cook Pastry at KalpaTree </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>SMK Negeri 2 Bandung</span><br>Rekayasa Perangkat Lunak</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -------------------skills------------------ -->
+    <div id="skills">
+        <div class="container">
+            <h2 class="sub-title">SKILLS</h2>
+            <hr>
+            <div class="skills-list reveal fade-left">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Front & Back End</h2>
+                    <ul>
+                        <li>HTML (Intermediated)</li>
+                        <li>CSS (Beginner)</li>
+                        <li>Bootstrap (Intermediated)</li>
+                        <li>PHP (Intermediated)</li>
+                        <li>Laravel (Intermediated)</li>
+                    </ul>
+                    </p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI & UX</h2>
+                    <ul>
+                        <li>Figma (Soon)</li>
+                    </ul>
+                </div>
+                <div>
+                    <i class="fa-solid fa-mobile"></i>
+                    <h2>Android</h2>
+                    <ul>
+                        <li>Flutter (Soon)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------------portfolio----------------------- -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h2 class="sub-title">PROJECTS</h2>
+            <hr>
+            <div class="work-list reveal fade-right">
+                <div class="work">
+                    <img src="images/Pilkasis.png">
+                    <div class="layer">
+                        <h3>PILKASIS</h3>
+                        <p>Pilkasis merupakan sarana pemilihan ketua osis berbasis website. Website ini memiliki banyak
+                            fitur yang memudahkan keberlangsungan pemilihan ketua osis.</p>
+                        <a href="404.html"><i class="fa-solid fa-chevron-right"></i></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/peduli.jpg">
+                    <div class="layer">
+                        <h3>PEDULI DIRI</h3>
+                        <p>Peduli Diri merupakan website yang berfungsi sebagai catatan atas perjalanan yang telah
+                            dilalui.</p>
+                        <a href="404.html"><i class="fa-solid fa-chevron-right"></i></i></a>
+                    </div>
+
+                </div>
+                <div class="work">
+                    <img src="images/keuangan.jpg">
+                    <div class="layer">
+                        <h3>Keuangan</h3>
+                        <p>Website Keuangan berfungsi mencatat pengeluaran serta pemasukkan, website ini dilengkapi dengan fitur laporan sehingga pengguna dapat melihat laporan keuangan secara berkala.</p>
+                        <a href="404.html"><i class="fa-solid fa-chevron-right"></i></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="404.html" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!-- -------------------contact----------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left reveal fade-bottom-2">
+                    <h2 class="sub-title">CONTACT ME</h2>
+                    <p><i class="fas fa-paper-plane"></i>tedysukma24@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i>089658443909</p>
+                    <div class="social-icons">
+                        <a href="facebook.com/Tdry"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <a href="404.html" class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right reveal fade-bottom">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Tedy. Made with <i class="fas fa-heart"></i></p>
+        </div>
+    </div>
+
+    <a href="#" class="to-top">
+        <i class="fas fa-chevron-up"></i>
+    </a>
+
+    <script>
+        window.addEventListener("scroll", function () {
+            var header = document.querySelector("header");
+            header.classList.toggle("sticky", window.scrollY > 40);
+        })
+    </script>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        let menuToggle = document.querySelector(".menuToggle");
+        let header = document.querySelector("header");
+        let navigation = document.querySelector(".navigation");
+
+        menuToggle.onclick = function () {
+            header.classList.toggle("open")
+        }
+
+       
+    </script>
+
+    <!-- <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script> -->
+
+    <script>
+        const toTop = document.querySelector(".to-top");
+
+        window.addEventListener("scroll", () => {
+            if (window.pageYOffset > 1000) {
+                toTop.classList.add("active");
+            } else {
+                toTop.classList.remove("active")
+            }
+        })
+    </script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyZUxBnLt4cMk3lMoNnu93F7UzFwX3k5HgrJinloHQ4icanZ78qX1iEZIYoWE4HDBo3iw/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+
+    <script>
+        function reveal() {
+            var reveals = document.querySelectorAll(".reveal");
+
+            for (var i = 0; i < reveals.length; i++) {
+                var windowHeight = window.innerHeight;
+                var elementTop = reveals[i].getBoundingClientRect().top;
+                var elementVisible = 150;
+
+                if (elementTop < windowHeight - elementVisible) {
+                    reveals[i].classList.add("active");
+                }
+            }
+        }
+
+        window.addEventListener("scroll", reveal);
+    </script>
+
+</body>
+
+</html>
