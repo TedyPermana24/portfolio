@@ -634,7 +634,7 @@ nav .fas{
     }
 
     #banner .banner-text h1{
-        margin-top: 75%;
+        margin-top: 100%;
         font-size: 40px;
     }
 
@@ -655,7 +655,7 @@ nav .fas{
     }
 
     .about-col-1 img{
-        height: 90vh;
+        height: 50vh;
     }
 
     .about-col-2{
